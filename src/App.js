@@ -1,12 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import Home from './components/Home';
+import Form from './components/Form';
+import Navbar from './components/Navbar';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>SINIT TRAVEL </h1>
+      <Navbar/>
+     <Home/>
+
+     <Form/>
+  
     </div>
   );
 }
